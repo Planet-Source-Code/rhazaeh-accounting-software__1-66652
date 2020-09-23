@@ -1,0 +1,6 @@
+SYS COM Company Name	String	50	Text
+GL COA Account No	String	50	Text
+GL COA Account Name	String	50	Text
+GL COA Account Balance	Currency	$0.00			
+BANK ACCT Number	String	20	Text
+BANK ACCT Next Check No	Number		0000000

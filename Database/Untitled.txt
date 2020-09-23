@@ -1,0 +1,24 @@
+Public Sub ClearForADDing(StrCtrlName As String)
+Dim ctrl As Control
+Dim StrName As String
+If StrCtrlName <> "_" Then 'user want to add new registration
+    StrName = Right(StrCtrlName, Len(StrCtrlName) - 3)
+'else 'user only want to add a specific table
+End If
+    For Each ctrl In MainLGM.Controls
+        If TypeOf ctrl Is TextBox Or TypeOf ctrl Is CheckBox Or TypeOf ctrl Is ComboBox Then
+            If ctrl.DataField <> "" And StrCtrlName = "_" Then
+                ctrl.Text = ""
+                ctrl.Tag = ""
+            ElseIf ctrl.DataField <> "" And StrCtrlName <> "_" Then
+                If TypeOf ctrl Is TextBox Then StrCtrlName = "txt" & StrName
+                If TypeOf ctrl Is CheckBox Then StrCtrlName = "chk" & StrName
+                If TypeOf ctrl Is ComboBox Then StrCtrlName = "cbo" & StrName
+                If LCase(ctrl.Name) = LCase(StrCtrlName) Then
+                    ctrl.Text = ""
+                    ctrl.Tag = ""
+                End If
+            End If
+        End If
+    Next
+End Sub

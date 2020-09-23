@@ -1,0 +1,48 @@
+SYS COM Company Name	String	50	Sample Company
+SYS COM Address 1	String	30	Sample Road, Sample Address
+SYS COM Address 2	String	30	Sample Address
+SYS COM City	String	20	Sample City
+SYS COM State	String	5	MLYS
+SYS COM Postal	String	20	43000
+SYS COM Country	String	20	Text
+SYS COM Phone	String	20	Text
+SYS COM Fax	String	20	Text
+AP PO Document Type	String	20	Text
+AP PO Ext Document No	String	50	Text
+AP PO Vendor Name	String	50	Text
+AP PO Address 1	String	30	Text
+AP PO Address 2	String	30	Text
+AP PO City	String	20	Text
+AP PO State	String	5	Text
+AP PO Postal	String	20	Text
+AP PO Country	String	50	Text
+AP PO Remit Name	String	50	Text
+AP PO Remit Address 1	String	30	Text
+AP PO Remit Address 2	String	30	Text
+AP PO Remit City	String	20	Text
+AP PO Remit State	String	5	Text
+AP PO Remit Postal	String	20	Text
+AP PO Remit Country	String	50	Text
+AP PO Date	Date		00/00/0000
+AP PO Vendor Invoice No	String	50	Text
+AP PO Ship Method	String	30	Text
+AP PO Date Requested	Date		00/00/0000
+AP PO Ordered By	String	20	Text
+AP PO Payment Terms	String	20	Text
+AP PO Due Date	Date		00/00/0000
+AP PO Payment Method	String	20	Text
+AP PO Subtotal	Currency		$0.00
+AP PO Discount Percent	Number		0.00
+AP PO Discount Amt	Currency		$0.00
+AP PO Misc Percent	Number		0.00
+AP PO Misc Charges	Currency		$0.00
+AP PO Shipping	Currency		$0.00
+AP PO Total Amount	Currency		$0.00
+AP PO Amount Paid	Currency		$0.00
+AP PO Balance Due	Currency		$0.00
+AP POD Description	String	150	Text
+AP POD Qty	Number		0
+AP POD Total Qty Received	Number		0.00
+AP POD Units	String	20	Text
+AP POD Unit Cost	Currency		$0.00
+AP POD Item Total	Currency		$0.00

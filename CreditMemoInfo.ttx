@@ -1,0 +1,34 @@
+SYS COM Company Name	String	50	Sample Company
+SYS COM Address 1	String	30	Sample Road, Sample Address
+SYS COM Address 2	String	30	Sample Address
+SYS COM City	String	20	Sample City
+SYS COM State	String	20	Text
+SYS COM Postal	String	20	00000
+SYS COM Country	String	50	Text
+SYS COM Phone	String	20	Text
+SYS COM Fax	String	20	Text
+AR SALE Document Type	String	20	Text
+AR SALE Billing Customer	String	50	Text
+AR SALE Billing Address 1	String	30	Text
+AR SALE Billing Address 2	String	30	Text
+AR SALE Billing City	String	20	Text
+AR SALE Billing State	String	20	Text
+AR SALE Billing Postal	String	20	Text
+AR SALE Billing Country	String	50	Text
+AR SALE Date	Date		00/00/0000
+AR SALE Ship Date	Date		00/00/0000
+AR SALE Shipping Method	String	20	Text
+AR SALE Salesperson	String	20	Text
+AR SALE Payment Terms	String	20	Text
+AR SALE Payment Method	String	20	Text
+AR SALE Subtotal	Currency		$0.00
+AR SALE Discount Percent	Number		0.00
+AR SALE Discount Amount	Currency		$0.00
+AR SALE Tax Percent	Number		0.00
+AR SALE Sales Tax	Currency		$0.00
+AR SALE Freight	Currency		$0.00
+AR SALE Total	Currency		$0.00
+AR SALED Posting Account	String	20	Text
+AR SALED Description	String	255	Text
+AR SALED Item Total	Currency	$0.00
+AR SALED Project	String	8	Text
