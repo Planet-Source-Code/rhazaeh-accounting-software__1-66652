@@ -1,0 +1,6 @@
+SYS COM Company Name	String	50	Sample Company
+SYS COM Address1	String	30	Sample Road, Sample Address
+SYS COM Address 2	String	30	Sample Address
+SYS COM City	String	20	Sample City
+SYS COM State	String	5	MLYS
+SYS COM Postal	String	20	43000

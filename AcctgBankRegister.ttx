@@ -1,0 +1,7 @@
+SYS COM Company Name	String	50	Text
+GL COA Account Name	String	20	Text
+BANK ID			String	20	Text
+Doc #			String	20	Text
+Description		String	8	Text
+Type			String	15	Text
+Amount			Currency	$0.00

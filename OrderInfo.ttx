@@ -1,0 +1,47 @@
+SYS COM Company Name	String	50	Sample Company
+SYS COM Address 1	String	30	Sample Road, Sample Address
+SYS COM Address 2	String	30	Sample Address
+SYS COM City	String	20	Sample City
+SYS COM State	String	5	MLYS
+SYS COM Postal	String	20	43000
+SYS COM Country	String	20	Text
+SYS COM Phone	String	20	Text
+SYS COM Fax	String	20	Text
+AR ORDER Document Type	String	20	Text
+AR ORDER Ext Document #	String	20	Text
+AR ORDER Billing Customer	String	50	Text
+AR ORDER Billing Address 1	String	30	Text
+AR ORDER Billing Address 2	String	30	Text
+AR ORDER Billing City	String	20	Text
+AR ORDER Billing State	String	5	Text
+AR ORDER Billing Postal	String	20	Text
+AR ORDER Billing Country	String	50	Text
+AR ORDER Shipping Customer	String	50	Text
+AR ORDER Shipping Address 1	String	30	Text
+AR ORDER Shipping Address 2	String	30	Text
+AR ORDER Shipping City	String	20	Text
+AR ORDER Shipping State	String	5	Text
+AR ORDER Shipping Postal	String	20	Text
+AR ORDER Shipping Country	String	50	Text
+AR ORDER Date	Date		00/00/0000
+AR ORDER Ship Date	Date		00/00/0000
+AR ORDER Shipping Method	String	30	Text
+AR ORDER Salesperson	String	20	Text
+AR ORDER Payment Terms	String	20	Text
+AR ORDER Payment Method	String	20	Text
+AR ORDER Subtotal	Currency		$0.00
+AR ORDER Discount Percent	Number		0.00
+AR ORDER Discount Amount	Currency		$0.00
+AR ORDER Tax Percent	Number		0.00
+AR ORDER Sales Tax	Currency		$0.00
+AR ORDER Freight	Currency		$0.00
+AR ORDER Total	Currency		$0.00
+AR ORDER Amount Paid	Currency		$0.00
+AR ORDER Balance Due	Currency		$0.00
+AR ORDERD Item Id	String	20	Text
+AR ORDERD Description	String	150	Text
+AR ORDERD Qty	Number		0
+AR ORDERD Unit Price	Currency		$0.00
+AR ORDERD Discount %	Number		0.00
+AR ORDERD Tax Rate	Number		0.00
+AR ORDERD Item Total	Currency		$0.00
